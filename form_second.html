@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>submit form</title>
+    <style>
+        form {
+            background: linear-gradient(red, greenyellow, blue, black);
+            color: antiquewhite;
+        }
+
+        input {
+            margin-top: 10px;
+            border-color: green;
+        }
+
+        label {
+            width: 100px;
+            display: inline-block;
+            margin-left: 1cm;
+        }
+
+        legend {
+            font-variant: small-caps;
+            text-align: center;
+            color: greenyellow;
+            font-size: 300%;
+            font-weight: bold;
+        }
+
+        .anand {
+            margin-left: 7cm;
+            background-color: brown;
+            font-size: 120%;
+
+        }
+
+        .abhay {
+            margin-left: -5cm;
+            background-color: brown;
+            font-size: 120%;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+
+            <legend>Submit your form</legend>
+            <label>Name</label>
+            <input type="text" placeholder="Enter your Name"><br>
+
+            <label>Father's Name</label>
+            <input type="text" placeholder="Enter your Father's Name"><br>
+
+            <label>Email</label>
+            <input type="email" placeholder="Enter your Email"><br>
+
+            <label>Phone no.</label>
+            <input type="number" placeholder="Enter your Phone no."><br>
+
+            <label>Password</label>
+            <input type="password" placeholder="Enter your Password"><br>
+
+            <input type="submit" class="anand">
+            <input type="reset" class="abhay">
+
+        </fieldset>
+    </form>
+</body>
+
+</html>
